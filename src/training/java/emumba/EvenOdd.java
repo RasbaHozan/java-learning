@@ -1,4 +1,4 @@
-package myJPack;
+package training.java.emumba;
 
 public class EvenOdd {
 public static void main(String[] args) {
