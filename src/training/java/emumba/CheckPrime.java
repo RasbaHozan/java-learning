@@ -2,15 +2,17 @@ package training.java.emumba;
 
 public class CheckPrime {
     public static boolean isPrime(int num) {
+    	boolean a =true;
+    	boolean b = false;
         if (num <= 1) {
-            return false;
+            return b;
         }
         for (int i = 2; i <num; i++) {
             if (num % i == 0) {
-                return false;
+                return b;
             }
         }
-        return true;
+        return a;
     }
 
     // Main method to check the isPrime method
