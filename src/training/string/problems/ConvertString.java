@@ -1,4 +1,4 @@
-package string_problems;
+package training.string.problems;
 
 public class ConvertString {
 

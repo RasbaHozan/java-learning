@@ -1,5 +1,5 @@
 //write a function to remove spaces from string
-package string_problems;
+package training.string.problems;
 
 public class RemoveSpaces {
 public static String removeSpaces(String str){

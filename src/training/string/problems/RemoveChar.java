@@ -1,6 +1,6 @@
 //write a function to remove certain character from a string.
 
-package string_problems;
+package training.string.problems;
 
 public class RemoveChar {
 public static String removeChar(String str , char charToRemove){

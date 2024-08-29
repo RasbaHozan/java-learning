@@ -1,6 +1,6 @@
-package training.java.emumba;
+package training.array.problems;
 
-public class EvenArray{
+public class OddArray{
 public static void main(String[] args) {
 	//initializing the array
 	int[] array= new int[101];
@@ -9,7 +9,7 @@ public static void main(String[] args) {
 		}
 	//printing array
 for (int i : array)	{
-		if (i%2 == 0) {
+		if (i%2 != 0) {
 			System.out.println(i);
 		}
 	}

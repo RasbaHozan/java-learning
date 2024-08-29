@@ -1,4 +1,4 @@
-package training.java.emumba;
+package training.conditional.problems;
 
 public class CheckPrime {
     public static boolean isPrime(int num) {

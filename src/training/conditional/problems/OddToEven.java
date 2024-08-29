@@ -1,4 +1,4 @@
-package training.java.emumba;
+package training.conditional.problems;
 
 public class OddToEven {
 public static void main(String[] args) {

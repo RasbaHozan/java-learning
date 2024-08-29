@@ -1,5 +1,5 @@
 //write a function to reverse the whole string
-package string_problems;
+package training.string.problems;
 
 public class ReverseString {
 public static String reversedString(String str) {

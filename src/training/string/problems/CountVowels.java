@@ -1,6 +1,6 @@
 //write a function to count the vowels in a string.
 
-package string_problems;
+package training.string.problems;
 
 public class CountVowels {
 	

@@ -1,4 +1,4 @@
-package training.java.emumba;
+package training.array.problems;
 
 public class SwapElement {
     public static void main(String[] args) {

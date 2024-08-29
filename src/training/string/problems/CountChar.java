@@ -1,6 +1,6 @@
 // write a function to count the occurrence of character in a string.
 
-package string_problems;
+package training.string.problems;
 
 public class CountChar {
 
