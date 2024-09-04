@@ -1,17 +1,33 @@
 package training.array.problems;
 
+import java.util.ArrayList;
+
 public class CreateArr {
-public static void main(String[] args) {
-	//initialize the array from 1 to 100
-int[] array=new int[100];
-for(int i=1; i<array.length;i++) {
-	array[i]=i;
-}
-//print the numbers not divisible by 3 and 5 in array
-for(int i : array) {
-	if (i%3!=0 && i%5!=0) {
-		System.out.println(i);
-	}
-}
-}
+
+    // Method to filter arrayList
+    public static void filterArray(ArrayList<Integer> list) {
+        for (int number : list) {
+            if (number % 3 != 0 && number % 5 != 0) {
+                System.out.println(number);
+            }
+        }
+    }
+
+    // Method to create an ArrayList & call the filter method
+    public static void processArrayList() {
+    	
+        // Create an ArrayList 
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 1; i <= 100; i++) {
+            list.add(i);
+        }
+
+        // Call the filter method
+        filterArray(list);
+    }
+
+    public static void main(String[] args) {
+    
+        processArrayList();
+    }
 }

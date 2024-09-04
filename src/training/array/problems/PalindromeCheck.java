@@ -1,3 +1,4 @@
+// write a function to check if the array is palindrome or not.
 package training.array.problems;
 
 public class PalindromeCheck {

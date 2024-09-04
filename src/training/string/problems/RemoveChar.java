@@ -12,9 +12,14 @@ public static String removeChar(String str , char charToRemove){
 }
 	return filteredStr;
 }
-public static void main(String[] args) {
+
+public static void printFilteredStr() {
 	String inputStr="my name is Rasba";
 	char charToRemove='a';
 	System.out.println(removeChar(inputStr,charToRemove));
+}
+
+public static void main(String[] args) {
+	printFilteredStr();
 }
 }

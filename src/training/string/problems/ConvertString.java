@@ -1,3 +1,5 @@
+//convert string into lower and upper case.
+
 package training.string.problems;
 
 public class ConvertString {
@@ -8,9 +10,14 @@ public class ConvertString {
         return "Lowercase: " + lowerCaseString +
         		", Uppercase: " + upperCaseString;
     }
-
+    
+public static void printConvertedString() {
+	String inputStr = "Rasba Hozan"; 
+	//call the convertString method 
+	convertString(inputStr);
+	 System.out.println(convertString(inputStr));
+}
     public static void main(String[] args) {
-        String inputStr = "Rasba Hozan";    
-        System.out.println(convertString(inputStr));
+    	printConvertedString();     
     }
 }

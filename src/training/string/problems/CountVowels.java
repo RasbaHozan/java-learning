@@ -9,24 +9,29 @@ public class CountVowels {
         String vowels = "AEIOUaeiou";
         int count = 0;
         
+        //iterate through each character of string
         for (int i = 0; i < str.length(); i++) {
-            char currentChar = str.charAt(i);
-            
-            // Check if the current character is a vowel
-            
+           
+            boolean vowelFound = false;
+            //iterate through each character of vowel string
             for (int j = 0; j < vowels.length(); j++) {
-                if (currentChar == vowels.charAt(j)) {
-                    count++;
-                    break;
+            	 // Check if the current character is a vowel
+                if (str.charAt(i) == vowels.charAt(j)) {
+               	vowelFound = true;
                 }
+            }
+            if (vowelFound == true) {
+            	count++;
             }
         }
         
         return count;
     }
-
+public static void printCount() {
+	   String inputStr = "English abcABC";
+       System.out.println(vowelCount(inputStr));
+}
     public static void main(String[] args) {
-        String inputStr = "English abcABC";
-        System.out.println(vowelCount(inputStr));
+     printCount();
     }
 }

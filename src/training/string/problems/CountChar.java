@@ -13,6 +13,8 @@ public static int countChar(String str,char charToCount) {
 	}
 	return count;
 }
+
+
 public static void main(String[] args) {
 	String inputStr="my name is Rasba";
 	char character='m';
