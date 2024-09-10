@@ -1,9 +1,9 @@
 package training.oop.problems;
 
 class Car {
-    private String make;
-    private String model;
-    private int year;
+    String make;
+    String model;
+     int year;
 
     // Constructor
     public Car(String make, String model, int year) {
@@ -38,7 +38,7 @@ class Car {
     }
     
     public String toString() {
-        return "Car{make:" +  make +"  " + ", model=" + model + "  "+", year=" + year +'}';
+        return "Car{make:" +  make +"  " + ", model='" + model + "  "+", year=" + year +'}';
     }
 
     public static void main(String[] args) {
