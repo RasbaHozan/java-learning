@@ -1,4 +1,5 @@
 package training.oop.problems;
+
 class Car {
     private String make;
     private String model;
@@ -36,8 +37,11 @@ class Car {
         this.year = newYear;
     }
     
+    public String toString() {
+        return "Car{make:" +  make +"  " + ", model=" + model + "  "+", year=" + year +'}';
+    }
+
     public static void main(String[] args) {
-    	
         // Instantiate Car objects
         Car car1 = new Car("Honda", "City", 2022);
         Car car2 = new Car("Toyota", "Corolla", 2023);
@@ -45,12 +49,12 @@ class Car {
 
         // Access properties
         System.out.println(car1.getMake());
-        System.out.println(car2.getModel()); 
-        System.out.println(car3.getYear());  
+        System.out.println(car2.getModel());
+        System.out.println(car3.getYear());
 
         // Update year property
         car2.setYear(2024);
-        System.out.println(car2.getYear()); 
+        System.out.println(car2.getYear());
 
         // Update car
         car1.setMake("Honda");
