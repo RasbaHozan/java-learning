@@ -35,11 +35,7 @@ class Car {
     public void setYear(int newYear) {
         this.year = newYear;
     }
-
-    public String toString() {
-        return "Car (make=" + make + ", model=" + model + ", year=" + year + ")";
-    }
-
+    
     public static void main(String[] args) {
     	
         // Instantiate Car objects
