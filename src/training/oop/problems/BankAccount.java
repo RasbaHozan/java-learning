@@ -52,7 +52,7 @@ public class BankAccount {
         System.out.println(account1.withdraw(2000));
 
         // Check balance
+        
         System.out.println("Current balance for account number " + account1.getAccountNumber() + ": " + account1.checkBalance());
     }
 }
-
