@@ -101,7 +101,7 @@ class Car extends Vehicle {
     	 //displaying information and rental cost for each vehicle
          vehicle.displayInfo();
          System.out.println("Rental Cost for 3 days: Rs." + vehicle.calculateRentalCost(5));
-         System.out.println();
+         
      }
  }
 }
